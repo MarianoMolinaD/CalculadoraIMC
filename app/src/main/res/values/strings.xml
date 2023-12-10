@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+
+    <string name="Bajo">Tener un peso bajo puede ser un problema de salud y es importante abordarlo de manera adecuada y segura.</string>
+    <string name="Normal">Mantener un peso normal es un logro significativo. ¡Estás en el camino correcto!</string>
+    <string name="Obecidad">La obesidad es un problema de salud complejo y, si una persona está luchando contra la obesidad, es importante tomar medidas saludables para abordarla.</string>
+    <string name="ObecidadSevera"> Es importante considerar medidas para mejorar tu salud. Consulta a un profesional de la salud para recibir orientación específica para tu situación.</string>
+    <string name="SobrePeso">Para una persona con sobrepeso, es fundamental tomar medidas saludables para alcanzar y mantener un peso corporal saludable.</string>
+</resources>
