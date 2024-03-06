@@ -8,21 +8,25 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="BackgroundImc">#2196F3</color>
+    <color name="BackgroundImc">#D84315</color>
     <color name="BackgroundCard">#003399</color>
     <color name="BackgroundCardSelected">#012367</color>
     <color name="BackgroundBotonPrincipal">#012367</color>
     <color name="BackgroundBotonSecundario">#012367</color>
-    <color name="BackgroundBajo">#53c9f7</color>
-    <color name="BackgroundNormal">#9bb50c</color>
-    <color name="BackgroundSobrePeso">#f9c801</color>
-    <color name="BackgroundObecidad">#f58a20</color>
-    <color name="BackgroundObecidadSevera">#f73f01</color>
-    <color name="BackgroundTransparenteBajo">#8053C9F7</color>
-    <color name="BackgroundTransparenteNormal">#809BB50C</color>
-    <color name="BackgroundTransparenteSobrePeso">#80F9C801</color>
-    <color name="BackgroundTransparenteObecidad">#80F58A20</color>
-    <color name="BackgroundTransparenteObecidadSevera">#80F73F01</color>
+    <color name="colorBar">#A4C8FF</color>
+
+    <color name="gradientOne">#0587FF</color>
+    <color name="gradientTwo">#69B3F8</color>
+    <color name="gradientThree">#003C73</color>
+
+    <color name="colorGradientLow">#BCB91D</color>
+    <color name="colorGradientNormal">#00C643</color>
+    <color name="colorGradientSobrepeso">#FF6600</color>
+    <color name="colorGradientObecidad">#F20000</color>
+    <color name="colorCard">#C7CAD6</color>
+
+
+
 
 
 

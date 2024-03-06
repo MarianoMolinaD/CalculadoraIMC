@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/lowWeightFragment"
+        android:name="com.portafoliowebmariano.calculadoraimc.ui.fragment.LowWeightFragment"
+        android:label="fragment_low_weight"
+        tools:layout="@layout/fragment_low_weight" >
+        <argument
+            android:name="bodyMass"
+            app:argType="float"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_lowWeightFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="gender"
+            app:argType="boolean"
+            android:defaultValue="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/normalWeightFragment"
+        android:name="com.portafoliowebmariano.calculadoraimc.ui.fragment.NormalWeightFragment"
+        android:label="NormalWeightFragment"
+        tools:layout="@layout/fragment_normal_weight">
+        <argument
+            android:name="bodyMass"
+            app:argType="float"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_normalWeightFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="gender"
+            app:argType="boolean"
+            android:defaultValue="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/overweigthOvergeihtFragment"
+        android:name="com.portafoliowebmariano.calculadoraimc.ui.fragment.OverweigthOvergeihtFragment"
+        android:label="OverweigthOvergeihtFragment"
+        tools:layout="@layout/fragment_overweigth_overgeiht"
+        >
+        <argument
+            android:name="bodyMass"
+            app:argType="float"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_overweigthOvergeihtFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="gender"
+            app:argType="boolean"
+            android:defaultValue="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/obesityWeightFragment"
+        android:name="com.portafoliowebmariano.calculadoraimc.ui.fragment.ObesityWeightFragment"
+        android:label="ObesityWeightFragment"
+        tools:layout="@layout/fragment_obesity_weight">
+        <argument android:name="bodyMass"
+            app:argType="float"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_obesityWeightFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="gender"
+            app:argType="boolean"
+            android:defaultValue="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.portafoliowebmariano.calculadoraimc.ui.fragment.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_lowWeightFragment"
+            app:destination="@id/lowWeightFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_normalWeightFragment"
+            app:destination="@id/normalWeightFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_overweigthOvergeihtFragment"
+            app:destination="@id/overweigthOvergeihtFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_obesityWeightFragment"
+            app:destination="@id/obesityWeightFragment" />
+    </fragment>
+</navigation>

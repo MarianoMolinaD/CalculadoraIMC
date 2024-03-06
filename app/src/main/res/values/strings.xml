@@ -6,4 +6,6 @@
     <string name="Obecidad">La obesidad es un problema de salud complejo y, si una persona está luchando contra la obesidad, es importante tomar medidas saludables para abordarla.</string>
     <string name="ObecidadSevera"> Es importante considerar medidas para mejorar tu salud. Consulta a un profesional de la salud para recibir orientación específica para tu situación.</string>
     <string name="SobrePeso">Para una persona con sobrepeso, es fundamental tomar medidas saludables para alcanzar y mantener un peso corporal saludable.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
